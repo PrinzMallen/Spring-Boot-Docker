@@ -1,5 +1,5 @@
 node {
-    echo 'Hello from Pipeline'
+    echo 'Hello from Pipeline!'
     checkout scm
-    sleep time: 10, unit: 'MINUTES'
+    sleep time: 1, unit: 'MINUTES'
 }
